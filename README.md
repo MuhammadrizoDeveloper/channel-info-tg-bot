@@ -11,12 +11,12 @@ First install all dependencies:
 ```
 npm install
 ```
-> Go to my.telegram.org and get your API ID and API HASH
+Go to my.telegram.org and get your API ID and API HASH
 [my.telegram.org](https://my.telegram.org)
 
-> Go to [BotFather](https://t.me/BotFather) and create a new bot, enter it's name and username, then copy the token.
+Go to [BotFather](https://t.me/BotFather) and create a new bot, enter it's name and username, then copy the token.
 
-> Go to [MongoDB](https://mongodb.com), sign up or sign in, create a cluster, create a database, then your collection. Copy your connection string.
+Go to [MongoDB](https://mongodb.com), sign up or sign in, create a cluster, create a database, then your collection. Copy your connection string.
 
 Create .env file and add your details:
 
