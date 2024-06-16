@@ -57,3 +57,7 @@ Go to Telegram, and click open in your bot.
 - [Prisma](https://www.prisma.io/docs) - The official Prisma documentation
 - [Gram.js](https://gram.js.org/) - Learn how to use Gram.js
 - [Tailwind CSS](https://tailwindcss.com/docs) - The official Tailwind CSS documentation
+
+---
+
+My Telegram: https://t.me/muhammadrizodev
