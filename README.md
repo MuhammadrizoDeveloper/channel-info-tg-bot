@@ -2,8 +2,8 @@
 
 ### This bot provides information about any public telegram channels using a web app
 
-- [Getting Started](https://github.com/)
-- [Learn More](https://github.com/)
+- [Getting Started](https://github.com/MuhammadrizoDeveloper/channel-info-tg-bot/blob/master/README.md#getting-started)
+- [Learn More](https://github.com/MuhammadrizoDeveloper/channel-info-tg-bot/blob/master/README.md#learn-more)
 
 ## Getting Started
 
