@@ -60,4 +60,4 @@ Go to Telegram, and click open in your bot.
 
 ---
 
-My Telegram: https://t.me/muhammadrizodev
+My Telegram: [@muhammadrizoedev](https://t.me/muhammadrizodev)
