@@ -126,7 +126,7 @@ const performSearch = async (input) => {
         ),
         reject("No query provided!");
       }
-    }, 5000)
+    }, 1000)
   })
 }
 
