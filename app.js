@@ -22,9 +22,12 @@ const bot = new TelegramBot(token, { polling: true });
 const prisma = new PrismaClient();
 
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'default_secret',
-  resave: false,
-  saveUninitialized: true,
+  // secret: process.env.SESSION_SECRET || 'default_secret',
+  // resave: false,
+  // saveUninitialized: true,
+  name: "session",
+  keys: [process.env.SESSION_SECRET],
+  maxAge: 24 * 60 * 60 * 1000
 }));
 
 app.set("view engine", "ejs");
