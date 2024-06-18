@@ -3,15 +3,16 @@
   "builds": [
     {
       "src": "app.js",
-      "use": "@vercel/node"
+      "use": "@vercel/node",
+      "config": {
+        "serverlessFunctionTimeout": 30
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/app.js",
-      "methods": ["GET"],
-      "timeout": 30
+      "dest": "/app.js"
     }
   ]
 }
