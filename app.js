@@ -81,9 +81,7 @@ app.post("/search", async (req, res) => {
       photoUrl: `/images/${inputValue}.jpg`,
     };
 
-    let channel = await prisma.channel.findUnique({
-      where: { username: inputValue }
-    });
+    let channel = await performSearch(inputValue);
 
     if(!channel) {
       channel = await client.getEntity(`t.me/${inputValue}`);
@@ -113,6 +111,24 @@ app.post("/search", async (req, res) => {
   }
   res.render("index", { channelInfo: channelInfo });
 });
+
+const performSearch = async (input) => {
+  // prisma.channel.findUnique({
+    // where: { username: input }
+  // });
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if(input) {
+        resolve(
+          prisma.channel.findUnique({
+            where: { username: input }
+          })
+        ),
+        reject("No query provided!");
+      }
+    }, 1000)
+  })
+}
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
