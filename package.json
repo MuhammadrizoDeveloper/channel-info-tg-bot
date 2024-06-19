@@ -5,8 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "build:css": "npx tailwindcss -i ./public/css/styles.css -o ./public/css/tailwind.css --watch",
-    "postinstall": "prisma generate"
+    "build:css": "npx tailwindcss -i ./public/css/styles.css -o ./public/css/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",
